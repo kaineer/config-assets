@@ -13,3 +13,6 @@ prepare: prepare_log
 
 test: prepare
 	cd bin && make test
+
+info:
+	bat log/*
