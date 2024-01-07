@@ -3,5 +3,7 @@ LANG=python
 prepare:
 	cd $(LANG) && make prepare && cd -
 
-test: prepare
+test:
 	cd $(LANG) && make test
+
+.PHONY: test

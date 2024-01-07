@@ -4,4 +4,6 @@ prepare:
 	pip install -r requirements.txt >../../log/python-prepare.log
 
 test:
-	pytest
+	pytest test
+
+.PHONY: test

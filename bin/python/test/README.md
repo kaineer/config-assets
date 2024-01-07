@@ -1,10 +1,10 @@
-# TODO
+# Roadmap
 
- * Check that pybars3 works with handlebars
+ * Check that `pybars3` works with handlebars
    * Simple, nested interpolation
    * Loops
    * Helpers, maybe. Not sure
- * Check that pyyaml works with yaml
+ * Check that `pyyaml` works with yaml
  * Make available interpolation inside yaml
    * example: `"${char.bar}"` --> `"*"`, when data is `{ char: { bar: "*" } }`
  * Decide format for:
@@ -15,3 +15,5 @@
    * Process single asset
    * Process single repository
    * Process all assets/repositories
+
+P.S. Everything but `py*` parts are for every language

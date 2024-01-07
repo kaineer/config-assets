@@ -11,5 +11,5 @@ all:
 prepare: prepare_log
 	cd bin && make prepare
 
-test:
+test: prepare
 	cd bin && make test
