@@ -1,2 +1,4 @@
+# bin/python/Makefile
+
 prepare:
-	pip install -r requirements.txt
+	pip install -r requirements.txt >../../log/python-prepare.log
