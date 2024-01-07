@@ -2,6 +2,7 @@
 
 ```yaml
 title: "Some repository"
+disabled: false
 # Repository source url
 #
 url: git@github.com:kaineer/repository-name.git
