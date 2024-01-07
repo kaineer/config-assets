@@ -21,6 +21,8 @@
  * Make available interpolation inside yaml
    * example: `"${char.bar}"` --> `"*"`, when data is `{ char: { bar: "*" } }`
 
+ * Check language for child process methods to run git clone
+
  * Make sure that there's a function (and maybe cli entry) to
    * Process single asset
    * Process single repository
