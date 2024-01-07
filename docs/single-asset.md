@@ -4,6 +4,7 @@
 # ~/repo-path/src/asset-path/meta.yml
 #
 title: "Asset title"
+disabled: false  # false by default
 # ~/repo-path/src/asset-path/asset-name.hbs
 #
 template: "asset-name.hbs"
