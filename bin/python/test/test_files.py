@@ -12,5 +12,5 @@ def test_load_yaml():
 def test_load_template():
     template = load_template(
             join(root, "fixtures/load_template/template.hbs"))
-    result = template({ "name": "John" })
-    assert result == "Hello, John!\n"
+    result = template({ "name": "John" }).strip()
+    assert result == "Hello, John!"
