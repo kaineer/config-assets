@@ -7,7 +7,7 @@
 
 ### Roadmap
 
- * Decide format for (this part should be done once)
+ * (kinda done) Decide format for (this part should be done once)
    * yaml for single template asset
    * yaml for several templates parts asset
    * yaml for repository

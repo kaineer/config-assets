@@ -1,8 +1,8 @@
 # Roadmap
 
  * Check that `pybars3` works with handlebars
-   * Simple, nested interpolation
-   * Loops
+   * :DONE: Simple, nested interpolation
+   * :DONE: Loops
    * Helpers, maybe. Not sure
  * Check that `pyyaml` works with yaml
  * Make available interpolation inside yaml
