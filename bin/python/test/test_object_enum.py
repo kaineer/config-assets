@@ -1,6 +1,11 @@
 from object_enum import object_enum, replace
 
-data = { "array": [ 1, 2 ], "object": { "string": "value", "number": 42 } }
+data = {
+  "array": [ 1, 2 ],
+  "object": {
+    "string": "value", "number": 42
+  }
+}
 
 def test_enum_keys():
     result = []
